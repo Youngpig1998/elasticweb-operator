@@ -1,0 +1,13 @@
+apiVersion: elasticweb.example.com/v1
+kind: ElasticWeb
+metadata:
+  name: elasticweb-sample
+spec:
+  # Add fields here
+  image: tomcat:8.0.18-jre8
+  port: 30003
+  singlePodQPS: 500
+  totalQPS: 600
+
+
+  
